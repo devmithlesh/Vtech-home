@@ -1,0 +1,476 @@
+@media (max-width:1200px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* It & Tech Solution Section */
+    .left_side_it_solution img {
+        width: auto;
+        padding-left: 50px;
+    }
+
+    /*---------- Green Area Section ----------*/
+    .grid_green_area_img {
+        width: 90%;
+    }
+
+    .anaytics_project {
+        width: 90%;
+    }
+
+    /*----------- it Solution --------------*/
+    .bg_color_it_solution {
+        width: 90%;
+    }
+
+    /*---------- footer section ----------*/
+    footer {
+        margin-top: 105px;
+    }
+}
+
+/*--------------- Tablate Screen ---------------- */
+@media (max-width:1024px) {
+
+    /*------------------ NavBar ------------------*/
+
+    .all_menu_option_btn button {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .all_menu_option_btn ul {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--green);
+        width: 100%;
+        height: 100vh;
+        padding-left: 60px;
+        transform: translateX(-100%);
+        z-index: 6;
+    }
+
+    .open {
+        transform: translateX(0%) !important;
+        transition: 0.4s ease-in-out;
+    }
+
+    .cross_x {
+        display: block;
+        position: absolute;
+        top: 24px;
+        font-size: 25px;
+        right: 54px;
+        color: var(--white);
+    }
+
+    .all_menu_option_btn ul li {
+        font-size: 25px;
+        padding: 15px 0;
+    }
+
+    .all_menu_option_btn ul li a {
+        color: var(--white);
+    }
+
+    .togglebar {
+        font-size: 30px;
+        display: block;
+    }
+
+    /* end navbar */
+
+    /*-----------  fonts size -----------*/
+    h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /*----------------- Our Services ---------------*/
+    .active_green_card img,
+    .card_right_tech img {
+        width: auto;
+    }
+
+    /* ----------- info & Tech Section --------------*/
+    .tech_Info_main_div {
+        flex-direction: column;
+    }
+
+    .left_tech_div {
+        width: 100%;
+    }
+
+    .right_tech_div {
+        width: 100%;
+    }
+
+    /*-------------------- It Solution Service --------------------*/
+    .main_div_itsolution {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .green_area_color_it {
+        background: none;
+        padding: 0;
+        width: auto;
+    }
+
+    .left_side_it_solution {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .left_side_it_solution img {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .right_side_it_solution {
+        padding-bottom: 60px;
+    }
+
+    /*--------------- Our Latest Project ---------------*/
+    .menus_projects>ul li a {
+        font-size: 10px;
+    }
+
+    .menus_projects>ul li:last-child {
+        padding-right: 0;
+    }
+
+    .anaytics_project>div h3 {
+        font-size: 25px;
+    }
+
+    .anaytics_project>div p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .green_area_section_main {
+        height: 270px;
+    }
+
+    /* -------------- What Customers say About Us -------------- */
+    .main_div_about_client_say {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right_side_client_say div {
+        top: 70px;
+    }
+
+    .right_side_client_say {
+        padding-top: 20px;
+    }
+
+    /*---------- We Provide Best Facility ----------*/
+    .basic_class_pro {
+        font-size: 15px;
+    }
+
+    .dollar_text {
+        font-size: 40px;
+    }
+
+    .provide_facility_div_p {
+        padding: 0;
+    }
+
+    .grid_inside_facility_pro button {
+        font-size: 12px;
+    }
+
+    .card_facility_provider .grid_inside_facility_pro {
+        padding: 0px 15px 40px 0;
+    }
+
+    /*------------ Our Latest News ------------*/
+    .main_card_latest_news {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .latest_news_div {
+        margin-top: 40px;
+    }
+
+    /*--------- Second Footer Section ---------*/
+    .second_footer_div a img {
+        width: 100%;
+    }
+
+    .get_easy_fast_footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .get_easy_fast_footer p {
+        text-align: center;
+    }
+
+    .second_footer_div {
+        justify-content: center;
+    }
+
+    .first_div_footer {
+        margin: 0 auto;
+    }
+
+    .get_easy_fast_footer .first_div_footer {
+        text-align: center !important;
+    }
+
+    .footer_section_start {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .three_grid_div_footer {
+        place-items: start;
+    }
+
+    .three_grid_div_footer {
+        margin-top: 20px;
+    }
+
+    .fleft_side {
+        margin-top: 20px;
+    }
+
+    /* Green text on heading */
+    .htop_text {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:720px) {
+
+    .moblemenu_project ul li {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+
+    /*------------- information & Technology -------------*/
+    .card_tech_info_in {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .right_tech_div {
+        margin-bottom: 20px;
+    }
+
+    .right_tech_div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*--------------- Our Latest Project ---------------*/
+    .menus_projects>ul li {
+        padding-right: 20px;
+    }
+
+    .menus_projects>ul li a {
+        font-size: 9px;
+    }
+
+    .anaytics_project {
+        padding: 28px 30px;
+        bottom: -63px;
+    }
+
+    .green_area_section_main {
+        height: 250px;
+    }
+
+
+
+    /* moble view */
+
+    .moblemenu_project ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .moblemenu_project ul li {
+        padding-right: 10px;
+    }
+
+    .moblemenu_project ul li a {
+        color: #000;
+    }
+
+    .active_color_m {
+        padding: 10px;
+        background: var(--green);
+    }
+
+    /*------------ our Experencied ------------*/
+    .card_exp_text_in h4 {
+        font-size: 12px;
+    }
+
+
+    /*------- what Customers Say About Us -------*/
+    .right_side_client_say div {
+        top: 90px;
+    }
+
+    /*--------- We Provide Best Facility ---------*/
+    .card_facility_provider {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: none;
+        gap: 60px;
+    }
+
+    .grid_inside_facility_pro {
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .card_in_facility_provider_div {
+        background: var(--green);
+    }
+
+    /*----------- It Solution Service -----------*/
+    .bg_color_it_solution {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:420px) {
+    h1 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    /* Hero Section */
+    .hero_content {
+        padding: 13% 25px;
+    }
+
+    .tech_Info_main_div {
+        padding: 0;
+    }
+
+    /* Infomation And Technology */
+    .tech_right_btn button {
+        padding: 10px 15px;
+    }
+
+    /*---------------- Our Latest Projects-------------- */
+    .menus_projects ul {
+        display: none;
+    }
+
+    .green_area_section_main {
+        height: 178px;
+    }
+
+    .moblemenu_project {
+        display: block;
+    }
+
+    /*---------- What Customer Say ----------*/
+    .right_side_client_say {
+        height: 400px;
+    }
+
+    .right_side_client_say div {
+        top: 70px;
+    }
+
+    /*---------- Meet Our Experienced ----------*/
+
+    .experencied_section_main_section {
+        padding: 0;
+    }
+
+    .card_exp_text_in h4 {
+        line-height: 0;
+    }
+
+    .card_experencied .card_exp_text_in {
+        position: absolute;
+        bottom: 21px;
+        left: 6px;
+    }
+
+    .column_content_client2 div h3 {
+        font-size: 16px;
+    }
+
+    /*--------- footer Section ---------*/
+    .fleft_side {
+        margin-top: 50px;
+    }
+
+    .three_grid_div_footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 330px) {
+
+
+
+    /*----------- our Latest Project -----------*/
+    .anaytics_project>div h3 {
+        font-size: 18px;
+    }
+
+    .anaytics_project>div p {
+        font-size: 9px;
+    }
+
+    /*----------- what customar say -----------*/
+    .right_side_client_say {
+        height: 345px;
+    }
+}
